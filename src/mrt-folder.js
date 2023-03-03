@@ -2,8 +2,6 @@ const path = require("path");
 const fs = require("fs").promises;
 require("colors");
 
-const arr = [];
-
 const sourcDir = path.join("d:", "Users", "Lleha", "!ПАПКИ");
 
 const test =
@@ -25,25 +23,12 @@ const getFiles = async (dir) => {
  * @param sourcDir
  */
 
-// const output = {
-//   level: 0,
-//   sourcDir: "",
-//   hits: [
-//     {
-//       id: 1,
-//       folderPath: "",
-//       folderContent: [
-//         { dir: "", item },
-//         { file: "", item },
-//       ],
-//     },
-//   ],
-// };
-// const watch = (data) => {
-//   console.log("data :>> ", data);
-//   arr.push(...data);
-//   console.log("arr :>> ", arr);
-// };
+const initialOptions = {
+  sourcDir: "",
+  destinationFolder: "",
+  deepLevel: 0,
+  fileFormat: "json",
+};
 
 const mrtFolder = async (sourcDir, deepLevel = 0) => {
   // console.group(`Level: ${deepLevel}`);
@@ -123,6 +108,6 @@ const mrtFolder = async (sourcDir, deepLevel = 0) => {
 //     ],
 //   };
 // console.log("output :>> ", output);
-const mrtResult = mrtFolder(test, 0).then((res) =>
+mrtFolder(test, 0).then((res) =>
   console.log("MRT result :>> ", JSON.stringify(res))
 );
