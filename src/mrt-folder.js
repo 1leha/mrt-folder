@@ -2,9 +2,12 @@ const path = require("path");
 const fs = require("fs").promises;
 require("colors");
 
+const arr = [];
+
 const sourcDir = path.join("d:", "Users", "Lleha", "!ПАПКИ");
 
-const test = "d:\\Users\\Lleha\\cources";
+const test =
+  "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream";
 
 const getFiles = async (dir) => {
   try {
@@ -13,145 +16,113 @@ const getFiles = async (dir) => {
     // console.log("files :>> ", files);
     // console.log(path.resolve(files[0]));
   } catch (error) {
-    console.log("error :>> ", error);
+    console.error("error :>> ", error);
   }
 };
 
 /**
- * Fold the Dir
- * Разворачивает содержимое папки в 1 уровень
+ * MRT Folder
+ * @param sourcDir
  */
 
-const foldTheDir = async (dir) => {
-  const fileList = await getFiles(dir);
+// const output = {
+//   level: 0,
+//   sourcDir: "",
+//   hits: [
+//     {
+//       id: 1,
+//       folderPath: "",
+//       folderContent: [
+//         { dir: "", item },
+//         { file: "", item },
+//       ],
+//     },
+//   ],
+// };
+// const watch = (data) => {
+//   console.log("data :>> ", data);
+//   arr.push(...data);
+//   console.log("arr :>> ", arr);
+// };
 
-  //   console.log("fileList :>> ", fileList);
-
-  const fileListRecursion = fileList.map(async (item) => {
-    const itemPath = path.resolve(dir, item);
-    // console.log("itemPath :>> ", itemPath);
-
-    // Check for directory or file
-    const stat = await fs.stat(itemPath);
-    const isDir = stat.isDirectory();
-    // console.log("isDir :>> ", isDir);
-
-    if (!isDir) {
-      //   console.log("item in BASE RECURSION LEVEL :>> ", item);
-      return item;
-    } else {
-      //   console.log("Идем глубже");
-      return await scanRecursion(itemPath);
-    }
-  });
-
-  const filesArr = await Promise.all(fileListRecursion);
-  console.log(
-    "fileListRecursion :>> ",
-    filesArr.flatMap((file) => file)
-  );
-
-  return filesArr.flatMap((file) => file);
-};
-
-// foldTheDir(sourcDir);
-
-/**
- * Fold the Dir by level
- * Разворачивает содержимое папки на заданное количество уровней
- */
-
-const foldTheDirByLevel = (dir, deepLevel) => {
-  const result = [];
-  let level = 0;
-
-  const detourFolder = async (dir, level = 0) => {
-    const fileList = await getFiles(dir);
-    // console.log("fileList :>> ", fileList);
-
-    if (deepLevel === level) {
-      console.log(" Достигнута нужная глубина");
-      return;
-    }
-
-    for (const file in fileList) {
-      const item = fileList[file];
-
-      const itemPath = path.resolve(dir, item);
-
-      // console.log("file :>> ".red, fileList[file]);
-      // Check for directory or file
-      const stat = await fs.stat(itemPath);
-      const isDir = stat.isDirectory();
-
-      if (!isDir) {
-        console.log(`Level: ${level}. File: ${item}`.bgGreen);
-        // result.push(item);
-      } else {
-        // console.log("это папка".bgCyan);
-        detourFolder(itemPath, level + 1);
-      }
-    }
+const mrtFolder = async (sourcDir, deepLevel = 0) => {
+  // console.group(`Level: ${deepLevel}`);
+  const counter = {
+    dir: 0,
+    files: 0,
   };
 
-  console.log("deepLevel :>> ", deepLevel);
+  const detourFolder = async (sourcDir, level = 0) => {
+    const fileList = await getFiles(sourcDir);
 
-  detourFolder(dir);
-};
-
-// foldTheDirByLevel(test, 2);
-
-/**
- * если список содержит только файлы - то вернуть список, если есть папки то пройтись по папкам в цикле
- * */
-
-/**
- * MRT Folder
- */
-
-const mrtFolder = (dir, deepLevel) => {
-  const result = [];
-  let level = 0;
-
-  const detourFolder = async (dir, level = 0) => {
-    const fileList = await getFiles(dir);
     // console.log("fileList :>> ", fileList);
+    // console.log("deepLevel === level :>> ", deepLevel === level);
 
-    // if (deepLevel === level) {
-    //   console.log("STOP >>> ");
-    //   return;
-    // }
+    const folderContent = fileList.map(async (item) => {
+      const itemPath = path.resolve(sourcDir, item);
 
-    for (const file in fileList) {
-      const item = fileList[file];
-      // console.log("item :>> ", item);
-
-      const itemPath = path.resolve(dir, item);
-
-      // console.log("file :>> ".red, fileList[file]);
       // Check for directory or file
       const stat = await fs.stat(itemPath);
       const isDir = stat.isDirectory();
-      const typeOfItem = isDir ? "DIR" : "FILE";
 
       if (deepLevel === level) {
-        console.log(`Level: ${level}. ${typeOfItem}: ${item}`.bgGreen);
-        // result.push(item);
-      } else {
-        // console.log("это папка".bgCyan);
         if (isDir) {
-          detourFolder(itemPath, level + 1);
+          counter.dir += 1;
+          return { dir: item };
+        } else {
+          counter.files += 1;
+
+          return { file: item };
+        }
+      } else {
+        if (isDir) {
+          // counter.dir += 1;
+
+          return {
+            folderPath: itemPath,
+            folderContent: await detourFolder(itemPath, level + 1),
+          };
+        } else {
+          counter.files += 1;
+
+          return { file: item };
         }
       }
+      // console.log(`${typeOfItem}: ${item}`.bgGreen);
+    });
 
-      //   // result.push(item);
-      // }
-    }
+    return await Promise.all(folderContent);
+
+    // console.log("folderContent :>> ", await Promise.all(folderContent));
   };
-
-  // console.log("deepLevel :>> ", deepLevel);
-
-  detourFolder(dir);
+  const hits = detourFolder(sourcDir);
+  // console.log("a :>> ", JSON.stringify(await hits));
+  return {
+    level: deepLevel,
+    sourcDir: sourcDir,
+    hits: await hits,
+    counter,
+  };
 };
 
-mrtFolder(test, 3);
+// const res = a.then((e) => console.log(e)).then((e2) => console.log(e2));
+// console.log("res :>> ", res);
+
+//!otput data of MRT
+//   const output = {
+//     level: 1,
+//     sourcDir: "sourcDir",
+//     hits: [
+//       {
+//         folderPath: "",
+//         folderContent: [
+//           { dir: "", item: "" },
+//           { file: "", item: "" },
+//         ],
+//       },
+//     ],
+//   };
+// console.log("output :>> ", output);
+const mrtResult = mrtFolder(test, 0).then((res) =>
+  console.log("MRT result :>> ", JSON.stringify(res))
+);

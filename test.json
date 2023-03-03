@@ -1,0 +1,567 @@
+{
+  "level": 100,
+  "sourcDir": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream",
+  "hits": [
+    { "file": ".editorconfig" },
+    {
+      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git",
+      "folderContent": [
+        { "file": "config" },
+        { "file": "description" },
+        { "file": "HEAD" },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\hooks",
+          "folderContent": [
+            { "file": "applypatch-msg.sample" },
+            { "file": "commit-msg.sample" },
+            { "file": "fsmonitor-watchman.sample" },
+            { "file": "post-update.sample" },
+            { "file": "pre-applypatch.sample" },
+            { "file": "pre-commit.sample" },
+            { "file": "pre-merge-commit.sample" },
+            { "file": "pre-push.sample" },
+            { "file": "pre-rebase.sample" },
+            { "file": "pre-receive.sample" },
+            { "file": "prepare-commit-msg.sample" },
+            { "file": "push-to-checkout.sample" },
+            { "file": "update.sample" }
+          ]
+        },
+        { "file": "index" },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\info",
+          "folderContent": [{ "file": "exclude" }]
+        },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\logs",
+          "folderContent": [
+            { "file": "HEAD" },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\logs\\refs",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\logs\\refs\\heads",
+                  "folderContent": [{ "file": "main" }]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\logs\\refs\\remotes",
+                  "folderContent": [
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\logs\\refs\\remotes\\origin",
+                      "folderContent": [{ "file": "HEAD" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\objects",
+          "folderContent": [
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\objects\\info",
+              "folderContent": []
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\objects\\pack",
+              "folderContent": [
+                { "file": "pack-87730882efcb657075727063764db46e29a08535.idx" },
+                { "file": "pack-87730882efcb657075727063764db46e29a08535.pack" }
+              ]
+            }
+          ]
+        },
+        { "file": "packed-refs" },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\refs",
+          "folderContent": [
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\refs\\heads",
+              "folderContent": [{ "file": "main" }]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\refs\\remotes",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\refs\\remotes\\origin",
+                  "folderContent": [{ "file": "HEAD" }]
+                }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.git\\refs\\tags",
+              "folderContent": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.github",
+      "folderContent": [
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\.github\\workflows",
+          "folderContent": [{ "file": "deploy.yml" }]
+        }
+      ]
+    },
+    { "file": ".gitignore" },
+    { "file": ".htmlnanorc" },
+    { "file": ".parcelrc" },
+    { "file": ".posthtmlrc" },
+    { "file": ".prettierrc" },
+    { "file": ".prettierrc.json" },
+    { "file": ".sassrc" },
+    {
+      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\assets",
+      "folderContent": [
+        { "file": "actions-config-step-1.png" },
+        { "file": "actions-config-step-2.png" },
+        { "file": "how-it-works.png" },
+        { "file": "repo-settings.png" },
+        { "file": "status.png" }
+      ]
+    },
+    { "file": "package-lock.json" },
+    { "file": "package.json" },
+    { "file": "README.md" },
+    { "file": "README.pl.md" },
+    { "file": "README.uk.md" },
+    {
+      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src",
+      "folderContent": [
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images",
+          "folderContent": [
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\about",
+              "folderContent": [
+                { "file": "bio-eco-cow@1x.png" },
+                { "file": "bio-eco-cow@2x.png" },
+                { "file": "milk-bg@1x.png" },
+                { "file": "milk-bg@2x.png" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\advantages",
+              "folderContent": [
+                { "file": "icon-stat-apples.png" },
+                { "file": "icon-stat-heart.png" },
+                { "file": "icon-stat-milk.png" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\favicon",
+              "folderContent": [
+                { "file": "android-chrome-48x48.png" },
+                { "file": "apple-touch-icon.png" },
+                { "file": "browserconfig.xml" },
+                { "file": "favicon-16x16.png" },
+                { "file": "favicon-32x32.png" },
+                { "file": "favicon.ico" },
+                { "file": "mstile-150x150.png" },
+                { "file": "safari-pinned-tab.svg" },
+                { "file": "site.webmanifest" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\big",
+                  "folderContent": [
+                    { "file": "gallery_01-big.jpg" },
+                    { "file": "gallery_02-big.jpg" },
+                    { "file": "gallery_03-big.jpg" },
+                    { "file": "gallery_04-big.jpg" },
+                    { "file": "gallery_05-big.jpg" },
+                    { "file": "gallery_06-big.jpg" },
+                    { "file": "gallery_07-big.jpg" },
+                    { "file": "gallery_08-big.jpg" },
+                    { "file": "gallery_09-big.jpg" },
+                    { "file": "gallery_10-big.jpg" },
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\big\\webp",
+                      "folderContent": [
+                        { "file": "gallery_01-big.webp" },
+                        { "file": "gallery_02-big.webp" },
+                        { "file": "gallery_03-big.webp" },
+                        { "file": "gallery_04-big.webp" },
+                        { "file": "gallery_05-big.webp" },
+                        { "file": "gallery_06-big.webp" },
+                        { "file": "gallery_07-big.webp" },
+                        { "file": "gallery_08-big.webp" },
+                        { "file": "gallery_09-big.webp" },
+                        { "file": "gallery_10-big.webp" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\desktop",
+                  "folderContent": [
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\desktop\\x1",
+                      "folderContent": [
+                        { "file": "gallery_01@1x.webp" },
+                        { "file": "gallery_02@1x.webp" },
+                        { "file": "gallery_03@1x.webp" },
+                        { "file": "gallery_04@1x.webp" },
+                        { "file": "gallery_05@1x.webp" },
+                        { "file": "gallery_06@1x.webp" },
+                        { "file": "gallery_07@1x.webp" },
+                        { "file": "gallery_08@1x.webp" },
+                        { "file": "gallery_09@1x.webp" },
+                        { "file": "gallery_10@1x.webp" }
+                      ]
+                    },
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\desktop\\x2",
+                      "folderContent": [
+                        { "file": "gallery_01@2x.webp" },
+                        { "file": "gallery_02@2x.webp" },
+                        { "file": "gallery_03@2x.webp" },
+                        { "file": "gallery_04@2x.webp" },
+                        { "file": "gallery_05@2x.webp" },
+                        { "file": "gallery_06@2x.webp" },
+                        { "file": "gallery_07@2x.webp" },
+                        { "file": "gallery_08@2x.webp" },
+                        { "file": "gallery_09@2x.webp" },
+                        { "file": "gallery_10@2x.webp" }
+                      ]
+                    }
+                  ]
+                },
+                { "file": "gallery_01.jpg" },
+                { "file": "gallery_02.jpg" },
+                { "file": "gallery_03.jpg" },
+                { "file": "gallery_04.jpg" },
+                { "file": "gallery_05.jpg" },
+                { "file": "gallery_06.jpg" },
+                { "file": "gallery_07.jpg" },
+                { "file": "gallery_08.jpg" },
+                { "file": "gallery_09.jpg" },
+                { "file": "gallery_10.jpg" },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\mobile",
+                  "folderContent": [
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\mobile\\x1",
+                      "folderContent": [
+                        { "file": "gallery_01-m@1x.webp" },
+                        { "file": "gallery_02-m@1x.webp" },
+                        { "file": "gallery_03-m@1x.webp" },
+                        { "file": "gallery_04-m@1x.webp" },
+                        { "file": "gallery_05-m@1x.webp" },
+                        { "file": "gallery_06-m@1x.webp" },
+                        { "file": "gallery_07-m@1x.webp" },
+                        { "file": "gallery_08-m@1x.webp" },
+                        { "file": "gallery_09-m@1x.webp" },
+                        { "file": "gallery_10-m@1x.webp" }
+                      ]
+                    },
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\mobile\\x2",
+                      "folderContent": [
+                        { "file": "gallery_01-m@2x.webp" },
+                        { "file": "gallery_02-m@2x.webp" },
+                        { "file": "gallery_03-m@2x.webp" },
+                        { "file": "gallery_04-m@2x.webp" },
+                        { "file": "gallery_05-m@2x.webp" },
+                        { "file": "gallery_06-m@2x.webp" },
+                        { "file": "gallery_07-m@2x.webp" },
+                        { "file": "gallery_08-m@2x.webp" },
+                        { "file": "gallery_09-m@2x.webp" },
+                        { "file": "gallery_10-m@2x.webp" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\tablet",
+                  "folderContent": [
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\tablet\\x1",
+                      "folderContent": [
+                        { "file": "gallery_01-t@1x.webp" },
+                        { "file": "gallery_02-t@1x.webp" },
+                        { "file": "gallery_03-t@1x.webp" },
+                        { "file": "gallery_04-t@1x.webp" },
+                        { "file": "gallery_05-t@1x.webp" },
+                        { "file": "gallery_06-t@1x.webp" },
+                        { "file": "gallery_07-t@1x.webp" },
+                        { "file": "gallery_08-t@1x.webp" },
+                        { "file": "gallery_09-t@1x.webp" },
+                        { "file": "gallery_10-t@1x.webp" }
+                      ]
+                    },
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\gallery\\tablet\\x2",
+                      "folderContent": [
+                        { "file": "gallery_01-t@2x.webp" },
+                        { "file": "gallery_02-t@2x.webp" },
+                        { "file": "gallery_03-t@2x.webp" },
+                        { "file": "gallery_04-t@2x.webp" },
+                        { "file": "gallery_05-t@2x.webp" },
+                        { "file": "gallery_06-t@2x.webp" },
+                        { "file": "gallery_07-t@2x.webp" },
+                        { "file": "gallery_08-t@2x.webp" },
+                        { "file": "gallery_09-t@2x.webp" },
+                        { "file": "gallery_10-t@2x.webp" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\hero",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\hero\\desktop",
+                  "folderContent": [
+                    { "file": "bio-eco-milk@1x.png" },
+                    { "file": "bio-eco-milk@2x.png" },
+                    { "file": "girl@1x.png" },
+                    { "file": "girl@2x.png" },
+                    { "file": "icecream-hero@1x.png" },
+                    { "file": "icecream-hero@2x.png" }
+                  ]
+                },
+                { "file": "logo@1x.png" },
+                { "file": "logo@2x.png" },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\hero\\mobile",
+                  "folderContent": [
+                    { "file": "icecream-hero@1x.png" },
+                    { "file": "icecream-hero@2x.png" }
+                  ]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\hero\\tablet",
+                  "folderContent": [
+                    { "file": "bio-eco-milk@1x.png" },
+                    { "file": "bio-eco-milk@2x.png" },
+                    { "file": "girl@1x.png" },
+                    { "file": "girl@2x.png" },
+                    { "file": "icecream-hero@1x.png" },
+                    { "file": "icecream-hero@2x.png" }
+                  ]
+                }
+              ]
+            },
+            { "file": "logo.png" },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\modals",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\modals\\buynow",
+                  "folderContent": [
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\modals\\buynow\\mobile",
+                      "folderContent": [
+                        { "file": "home-pic1@1x.png" },
+                        { "file": "home-pic1@2x.png" },
+                        { "file": "home-pic2@1x.png" },
+                        { "file": "home-pic2@2x.png" },
+                        { "file": "home-pic3@1x.png" },
+                        { "file": "home-pic3@2x.png" }
+                      ]
+                    },
+                    {
+                      "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\modals\\buynow\\tablet",
+                      "folderContent": [
+                        { "file": "home-pic1@1x.png" },
+                        { "file": "home-pic1@2x.png" },
+                        { "file": "home-pic2@1x.png" },
+                        { "file": "home-pic2@2x.png" },
+                        { "file": "home-pic3@1x.png" },
+                        { "file": "home-pic3@2x.png" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\our-team",
+              "folderContent": [
+                { "file": "photo-al.jpg" },
+                { "file": "photo-av.jpg" },
+                { "file": "photo-dt.jpg" },
+                { "file": "photo-im.jpg" },
+                { "file": "photo-mb.jpg" },
+                { "file": "photo-ms.jpg" },
+                { "file": "photo-sc.jpg" },
+                { "file": "photo-vp.jpg" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\products",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\products\\desktop",
+                  "folderContent": [
+                    { "file": "ic-product1@1x.png" },
+                    { "file": "ic-product1@2x.png" },
+                    { "file": "ic-product2@1x.png" },
+                    { "file": "ic-product2@2x.png" },
+                    { "file": "ic-product3@1x.png" },
+                    { "file": "ic-product3@2x.png" }
+                  ]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\products\\mobile",
+                  "folderContent": [
+                    { "file": "ic-product1@1x.png" },
+                    { "file": "ic-product1@2x.png" },
+                    { "file": "ic-product2@1x.png" },
+                    { "file": "ic-product2@2x.png" },
+                    { "file": "ic-product3@1x.png" },
+                    { "file": "ic-product3@2x.png" }
+                  ]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\products\\svg",
+                  "folderContent": [{ "file": "dec-dots.svg" }]
+                },
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\products\\tablet",
+                  "folderContent": [
+                    { "file": "ic-product1@1x.png" },
+                    { "file": "ic-product1@2x.png" },
+                    { "file": "ic-product2@1x.png" },
+                    { "file": "ic-product2@2x.png" },
+                    { "file": "ic-product3@1x.png" },
+                    { "file": "ic-product3@2x.png" }
+                  ]
+                }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\reviews",
+              "folderContent": [
+                { "file": "testimonials1.jpg" },
+                { "file": "testimonials1@1x.webp" },
+                { "file": "testimonials1@2x.webp" },
+                { "file": "testimonials2.jpg" },
+                { "file": "testimonials2@1x.webp" },
+                { "file": "testimonials2@2x.webp" },
+                { "file": "testimonials3.jpg" },
+                { "file": "testimonials3@1x.webp" },
+                { "file": "testimonials3@2x.webp" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\svg",
+              "folderContent": [
+                {
+                  "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\images\\svg\\customer-reviews",
+                  "folderContent": [
+                    { "file": "active-pagination.svg" },
+                    { "file": "comma-comma.svg" },
+                    { "file": "three-dots.svg" }
+                  ]
+                },
+                { "file": "sprite.sg " }
+              ]
+            }
+          ]
+        },
+        { "file": "index.html" },
+        { "file": "index.js" },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\js",
+          "folderContent": [
+            { "file": "animateTitlesOnFieldOfView.js" },
+            { "file": "mobile-menu-scrolllock.js" },
+            { "file": "modal.js" },
+            { "file": "reviewsSlider.js" },
+            { "file": "scroll.js" },
+            { "file": "scrollTop.js" },
+            { "file": "simplelightbox.js" },
+            { "file": "storeApi.js" }
+          ]
+        },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\partials",
+          "folderContent": [
+            { "file": "about.html" },
+            { "file": "advantages.html" },
+            { "file": "contacts.html" },
+            { "file": "footer.html" },
+            { "file": "gallery.html" },
+            { "file": "header.html" },
+            { "file": "hero.html" },
+            { "file": "modal.html" },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\partials\\modals-content",
+              "folderContent": [
+                { "file": "buynow-content.html" },
+                { "file": "franchise-content.html" },
+                { "file": "location-content.html" },
+                { "file": "readmore-content.html" }
+              ]
+            },
+            { "file": "products.html" },
+            { "file": "reviews.html" }
+          ]
+        },
+        {
+          "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\sass",
+          "folderContent": [
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\sass\\base",
+              "folderContent": [
+                { "file": "_common.scss" },
+                { "file": "_reset.scss" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\sass\\components",
+              "folderContent": [
+                { "file": "_buttons.scss" },
+                { "file": "_container.scss" },
+                { "file": "_modal.scss" },
+                { "file": "_quantity.scss" },
+                { "file": "_section.scss" },
+                { "file": "_slide.scss" }
+              ]
+            },
+            { "file": "index.scss" },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\sass\\layout",
+              "folderContent": [
+                { "file": "_about.scss" },
+                { "file": "_advantages.scss" },
+                { "file": "_contacts.scss" },
+                { "file": "_footer.scss" },
+                { "file": "_gallery.scss" },
+                { "file": "_header.scss" },
+                { "file": "_hero.scss" },
+                { "file": "_modal-buynow.scss" },
+                { "file": "_modal-franchise.scss" },
+                { "file": "_modal-location.scss" },
+                { "file": "_modal-readmore.scss" },
+                { "file": "_products.scss" },
+                { "file": "_reviews.scss" }
+              ]
+            },
+            {
+              "folderPath": "d:\\Users\\Lleha\\cources\\go_it\\teamProjects\\html\\team-project_iceCream\\src\\sass\\utils",
+              "folderContent": [
+                { "file": "_animations.scss" },
+                { "file": "_is-hidden.scss" },
+                { "file": "_mixins.scss" },
+                { "file": "_variables.scss" },
+                { "file": "_visually-hiden.scss" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "counter": { "dir": 0, "files": 271 }
+}
